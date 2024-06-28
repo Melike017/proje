@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dosi Anasayfa </title>
+    <link rel="stylesheet" href="anasayfa.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dosi</h1>
+
+        <div class="sections">
+            <div class="section">
+                <h2>Alışkanlıklar</h2>
+                <div class="habit-list">
+                    <div class="habit-item">
+                        <span>Çalış/Ertele</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="habit-item">
+                        <span>İşin uzmanını araştır >> Yeni bir yaratıcı teknik alıştırması yaptın</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="habit-item">
+                        <span>10 dakika kardiyo >> + 10 dakika kardiyo</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="habit-item">
+                        <span>Buraya tıklayıp bunu bırakmak istediğiniz kötü bir alışkanlıkla değiştirin</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                </div>
+                <form id="habit-form">
+                    <input type="text" id="habit-input" placeholder="Yeni alışkanlık ekle...">
+                    <button type="submit">Ekle</button>
+                </form>
+            </div>
+
+            <div class="section">
+                <h2>Günlük İşler</h2>
+                <div class="task-list">
+                    <div class="task-item">
+                        <span>Ödevi bitir</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="task-item">
+                        <span>Yaratıcı bir proje üzerine çalış</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="task-item">
+                        <span>Esneme >> Günlük egzersiz rutini</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                </div>
+                <form id="task-form">
+                    <input type="text" id="task-input" placeholder="Yeni günlük iş ekle...">
+                    <button type="submit">Ekle</button>
+                </form>
+            </div>
+
+            <div class="section">
+                <h2>Görevler</h2>
+                <div class="task-list">
+                    <div class="task-item">
+                        <span>Proje tamamla</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                    <div class="task-item">
+                        <span>Kitap oku</span>
+                        <button class="delete-btn">Sil</button>
+                    </div>
+                </div>
+                <form id="goal-form">
+                    <input type="text" id="goal-input" placeholder="Yeni görev ekle...">
+                    <button type="submit">Ekle</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="anasayfa.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #e15ee6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background: #92138c;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background: #e15ee6;
+    color: white;
+}
+
+.apple-btn {
+    background: #e15ee6;
+    color: white;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.forgot-password a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #e15ee6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-link {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: white;
+    text-decoration: none;
+}
